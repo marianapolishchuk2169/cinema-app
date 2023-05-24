@@ -2,8 +2,8 @@
 
 It is an app that allows users to order movie tickets, view available movie sessions, and view their shopping cart. The application is built on Hibernate and Spring frameworks, using REST, SOLID, KISS, DRY principles, Three-Tier architecture:
 1. Controllers - user interaction with the program: sending requests and receiving responses;
-2. Services: business logic;
-3. Data access object (DAO): interaction of the program with the database.
+2. Services - business logic;
+3. Data access object (DAO) - interaction of the program with the database.
 
 For easier relations with the application, you can use the following Postman collection: [collection](https://www.postman.com/spacecraft-explorer-61698248/workspace/cinema-app/collection/27153723-05ae1d13-0b1b-4c20-82a4-dfa65e83b91f?action=share&creator=27153723)
 
