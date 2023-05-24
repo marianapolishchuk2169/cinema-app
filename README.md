@@ -46,15 +46,15 @@ For easier relations with the application, you can use the following Postman col
       - `/register` - new user registration
   - CinemaHallController:
       - `GET /cinema-halls/` - show all cinema-halls
-      - `POST /cinema-halls/` - add a new cinema hall
+      - `POST /cinema-halls/` - add a new cinema hall (only `ADMIN` role)
   - MovieController: 
       - `GET /movies/` - show all movies
-      - `POST /movies/` - add a new movie
+      - `POST /movies/` - add a new movie (only `ADMIN` role)
   - MovieSessionController: 
       - `GET /movie-sessions/available/` - show all available movie sessions
-      - `POST /movie-sessions/` - add a new movie session
-      - `PUT /movie-sessions/${id}/` - update a movie session by id
-      - `DELETE /movie-sessions/${id}` - delete a movie session by id
+      - `POST /movie-sessions/` - add a new movie session (only `ADMIN` role)
+      - `PUT /movie-sessions/${id}/` - update a movie session by id (only `ADMIN` role)
+      - `DELETE /movie-sessions/${id}` - update/delete a movie session by id (only `ADMIN` role)
   - OrderController:
       - `GET /orders/` - show user's order history
       - `POST /orders/complete` - complete order
@@ -62,7 +62,7 @@ For easier relations with the application, you can use the following Postman col
       - `GET /shopping-carts/by-user/` - show all tickets added to user's shopping cart
       - `PUT /shopping-carts/movie-sessions/` -  update shopping cart by movie session id
   - UserController:
-      - `GET /users/by-email/` - show user's information by email
+      - `GET /users/by-email/` - show user's information by email (only `ADMIN` role)
 - dao - Data Access Object interfaces and their implementations
 - dto - Data Transfer Object
 - exception - custom DataProcessingException
