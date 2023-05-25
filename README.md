@@ -31,6 +31,7 @@ For easier relations with the application, you can use the following Postman col
    - view order history
 - In the role of `ADMIN` you can:
    - view the list of movies and add a movie to the list
+   - add info about cinema halls
    - delete movie session by id
    - view the list of movie sessions and add a movie session to the list
    - find user by email
