@@ -44,7 +44,7 @@ For easier relations with the application, you can use the following Postman col
   - `POST /login` - authentication
   - `GET /logout` - logout
   - AuthenticationController:
-      - `/register` - new user registration
+      - `POST /register` - new user registration
   - CinemaHallController:
       - `GET /cinema-halls/` - show all cinema-halls
       - `POST /cinema-halls/` - add a new cinema hall (only `ADMIN` role)
